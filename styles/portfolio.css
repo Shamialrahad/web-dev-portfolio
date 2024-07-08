@@ -47,6 +47,10 @@
   color: #757575;
 }
 
+.text-center {
+  text-align: center;
+}
+
 /* Nav Styles */
 nav {
   display: flex;
@@ -99,6 +103,7 @@ main {
   padding: 130px 150px;
   text-align: center;
   margin-top: 130px;
+  margin-bottom: 130px;
 }
 .about-items {
   display: flex;
@@ -106,4 +111,16 @@ main {
 }
 .item-description {
   font-weight: 600;
+}
+
+/* Skills section style */
+.skills-container {
+  display: flex;
+  gap: 24px;
+}
+
+.skill {
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px rgba(46, 46, 46, 0.2);
 }
